@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armstrong</title>
+</head>
+<body>
+    <script>
+        let num=Number(prompt("ener a number"))
+        let temp1=num
+        let temp2=num
+        let count=0
+
+        while(temp1>0)
+    {
+        count++
+        temp1=Math.floor(temp1/10)
+    }
+    console.log(count)
+    let sum=0
+        while(temp2>0)
+    {
+        let n=temp2%10
+        sum=sum+n**count
+        temp2=Math.floor(temp2/10)
+    }
+    if(sum==num)
+    {
+        console.log(sum,"armstrog")
+    }
+    else{
+        console.log(sum,"random")
+    }
+</script>
+</body>
+</html>
