@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Array Mutating Methods</title>
+</head>
+<body>
+
+  <script>
+    // An array to work with
+    let arr = [1, 2, 3];
+    console.log("original");
+    
+    console.log(arr);
+
+    // push() → adds an element to the end of the array
+    arr.push(4);
+     console.log("push");
+    console.log(arr);
+
+    // pop() → removes the last element from the array
+    arr.pop();
+    console.log("pop");
+    console.log(arr);
+
+    // unshift() → adds an element at the beginning of the array
+    arr.unshift(0);
+    console.log("unshift");
+    console.log(arr);
+
+    // shift() → removes the first element from the array
+    arr.shift();
+    console.log("shift");
+    console.log(arr);
+
+    // splice() → removes or replaces elements in the array
+    // splice(startIndex, deleteCount, newItem)
+    arr.splice(1, 1, 5);
+    console.log("splice");
+    console.log(arr);
+
+    // sort() → sorts the array (changes original array)
+    arr.sort();
+    console.log("sort");
+    console.log(arr);
+
+    // reverse() → reverses the array order
+    arr.reverse();
+    console.log("reverse");
+    console.log(arr);
+
+    
+  </script>
+
+</body>
+</html>
