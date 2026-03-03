@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+<body>
+<script>
+    function userName(name)
+    {
+        console.log(`welcome ${name}`)
+    }
+    userName("newcommer")
+    // Return Function
+    function AddNumber(n1,n2)
+    {
+        return n1+n2
+    }
+     total=AddNumber(10,20)+30
+     console.log("Return Function")
+     console.log(total)
+     //Anyonymus Function
+     let Show=function()
+     {
+        console.log("anynomus function acivated")
+     }
+     Show();
+     // call back function
+     function Great(CallBack)
+     {
+        console.log("hello")
+        CallBack();
+     }
+     function Bye()
+     {
+        console.log("good bye")
+     }
+     Great(Bye)
+</script>
+</body>
+</html>
