@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOWEL from given string</title>
+</head>
+<body>
+    <script>
+       let vowels="aeiouAEIOU"
+       let count=0
+       function vowelLetter(str)
+       {
+        for(let vov of str)
+       {
+        if(vowels.includes(vov))
+       {
+          count++
+       }
+       }
+       console.log(count)
+       }
+       vowelLetter("hello this is alish ")
+       
+    </script>
+</body>
+</html>
