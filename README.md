@@ -1,70 +1,139 @@
-# 🚀 JavaScript Learning Repository
+# JavaScript Learning Repository 🚀
 
-This repository contains my **JavaScript learning journey**, where I practice and implement core concepts of JavaScript step by step with examples and small programs.
-
----
-
-## 📂 What is inside this repo?
-
-This repo includes basic to intermediate JavaScript topics such as:
-
-### 🟡 Basics
-- Variables (`let`, `const`, `var`)
-- Data Types
-- Operators
-- Console output (`console.log`)
+This repository contains my step-by-step JavaScript learning journey, including basics, DOM, functions, loops, arrays, and practice problems.
 
 ---
 
-### 🔁 Control Flow
-- if / else statements
-- Nested conditions
-- Switch cases
+## 📚 Topics Covered
+
+### 1. Basics of JavaScript
+
+* Variables
+* Data Types
+* Operators
+* Conditions
+
+### Files:
+
+* `01_js.js`
+* `02_variable.js`
+* `03_datatypes.js`
+* `04_operators.js`
+* `05_conditions.js`
 
 ---
 
-### 🔄 Loops
-- for loop
-- while loop
-- do...while loop
+### 2. Input & Logic Building
 
-📌 Example programs:
-- Fibonacci series
-- Sum of numbers
-- Odd/Even logic
-- Pattern printing (basic)
+* User input handling
+* Nested conditions
 
----
+### Files:
 
-### 📦 Arrays
-- Array creation
-- Traversing arrays
-- Basic array operations
+* `06_asking_user.html`
+* `07_nested_if_else.html`
 
 ---
 
-### 🧠 Functions
-- Function declaration
-- Function with parameters
-- Return values
-- Arrow functions
+### 3. Control Statements
 
-📌 Example programs:
-- Calculator functions
-- Fibonacci using function
-- Simple logic building problems
+* Switch case
+* Loops (for, while, for-in, for-of)
+
+### Files:
+
+* `09_switch.html`
+* `10_loops.html`
+* `14_for in loop.html`
+* `15_for of loop.html`
 
 ---
 
-## 💻 Sample Code
+### 4. Problem Solving Practice
 
-### 🔹 Fibonacci Series
-```js
-let a = 0, b = 1, n = 5;
+* Armstrong number
+* Palindrome
+* Prime number
+* Even numbers
+* Pattern printing
+* Perfect number
+* Sum of natural numbers
 
-for (let i = 0; i < n; i++) {
-    console.log(a);
-    let c = a + b;
-    a = b;
-    b = c;
-}
+### Files:
+
+* `11_practice_armstrong.html`
+* `12_practise_palindrome.html`
+* `13_practise_prime.html`
+* `16_sum of 10 natural number.html`
+* `18_pattern.html`
+* `19_even.html`
+* `20_perfect_number.html`
+
+---
+
+### 5. Arrays
+
+* Array basics
+* Looping through arrays
+* Mutating methods
+* Finding duplicates
+* Maximum value
+
+### Files:
+
+* `21_array.html`
+* `22_array_with_loops.html`
+* `23_mutating_methods.html`
+* `24_array_repetednum.html`
+* `24_removing_doubleddata.html`
+* `25_maximum.html`
+
+---
+
+### 6. Functions
+
+* Function basics
+* Vowel checker
+
+### Files:
+
+* `26_function.html`
+* `27_function_vowels.html`
+
+---
+
+### 7. DOM & Events
+
+* DOM selection
+* Click events
+* Event listeners
+* Button control
+* Responsive navbar task
+
+---
+
+## 🎯 Goal of This Repo
+
+This repository is created to:
+
+* Strengthen JavaScript fundamentals
+* Practice coding problems
+* Build logic step-by-step
+
+---
+
+## 🚀 Future Additions
+
+* Advanced JavaScript concepts
+* Async JS (Promises, Async/Await)
+* Projects (Calculator, To-do app, etc.)
+
+---
+
+## 👨‍💻 Author
+
+AIS09-sys
+
+---
+
+⭐ If you like this repo, feel free to star it!
